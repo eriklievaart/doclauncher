@@ -1,0 +1,1 @@
+start javaw -jar /windows/doc.jar $1 $2
