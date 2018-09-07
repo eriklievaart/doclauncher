@@ -1,4 +1,4 @@
-package boot;
+package com.eriklievaart.doclauncher.boot;
 
 import java.awt.Desktop;
 import java.io.File;

@@ -36,7 +36,7 @@ public class IndexCache {
 
 	private Map<String, File> createIndex() throws IOException {
 		Map<String, File> index = new Indexer(docRoot).index();
-		io.save(new HashMap<String, File>(index));
+		io.save(new HashMap<>(index));
 		return index;
 	}
 
@@ -44,7 +44,8 @@ public class IndexCache {
 		try {
 			return io.load();
 		} catch (Exception e) {
+			System.err.println("index not found");
 		}
-		return new Hashtable<String, File>();
+		return new Hashtable<>();
 	}
 }

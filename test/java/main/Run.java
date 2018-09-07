@@ -2,7 +2,7 @@ package main;
 
 import java.io.IOException;
 
-import boot.Main;
+import com.eriklievaart.doclauncher.boot.Main;
 
 public class Run {
 
