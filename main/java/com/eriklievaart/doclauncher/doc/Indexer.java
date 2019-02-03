@@ -1,4 +1,4 @@
-package org.eriklievaart.doc;
+package com.eriklievaart.doclauncher.doc;
 
 import java.io.File;
 import java.io.IOException;

@@ -14,8 +14,8 @@ import javax.swing.JList;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 
-import org.eriklievaart.doc.IndexCache;
-import org.eriklievaart.util.FileUtils;
+import com.eriklievaart.doclauncher.doc.IndexCache;
+import com.eriklievaart.doclauncher.util.FileUtils;
 
 // TODO: 
 // allow fuzzy match

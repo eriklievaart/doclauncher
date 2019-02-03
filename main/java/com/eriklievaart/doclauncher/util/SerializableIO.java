@@ -1,4 +1,4 @@
-package org.eriklievaart.util;
+package com.eriklievaart.doclauncher.util;
 
 import java.io.BufferedInputStream;
 import java.io.File;

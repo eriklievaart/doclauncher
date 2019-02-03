@@ -1,4 +1,4 @@
-package org.eriklievaart.doc;
+package com.eriklievaart.doclauncher.doc;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
-import org.eriklievaart.util.SerializableIO;
+import com.eriklievaart.doclauncher.util.SerializableIO;
 
 public class IndexCache {
 
