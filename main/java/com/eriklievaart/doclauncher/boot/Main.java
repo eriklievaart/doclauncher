@@ -88,5 +88,4 @@ public class Main {
 		File selected = index.get(list.getSelectedValue());
 		return selected;
 	}
-
 }
