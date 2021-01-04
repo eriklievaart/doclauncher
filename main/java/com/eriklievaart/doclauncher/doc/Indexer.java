@@ -11,10 +11,10 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 public class Indexer {
-	private static final String MARKER_FILE_NAME = "allclasses-frame.html";
+	private static final String MARKER_FILE_NAME = "index.html";
 	private final Logger log = Logger.getLogger(getClass().getName());
 
-	private final Map<String, File> index = new Hashtable<String, File>();
+	private final Map<String, File> index = new Hashtable<>();
 	private final File root;
 
 	public Indexer(File root) throws IOException {
