@@ -20,7 +20,7 @@ public class Indexer {
 	public Indexer(File root) throws IOException {
 		this.root = root;
 		if (!root.isDirectory()) {
-			throw new IOException("`" + root.getPath() + "` is not a directory");
+			throw new IOException("`" + root.getAbsolutePath() + "` is not a directory");
 		}
 	}
 
@@ -41,8 +41,9 @@ public class Indexer {
 		}
 		removeIndexedRoots(missing);
 		if (!missing.isEmpty()) {
-			notify("Missing " + MARKER_FILE_NAME + " for " + missing.get(0));
+			log.warning("Missing " + MARKER_FILE_NAME + " for " + missing.get(0));
 		}
+
 	}
 
 	private void removeIndexedRoots(List<String> roots) {
